@@ -43,16 +43,17 @@ public class MainActivity extends FragmentActivity {
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
-			Intent intent = new Intent();
-	        intent.setClass(MainActivity.this, SecondActivity.class);
-//	        startActivity(intent);
-	        Bundle bundle = new Bundle();
-	        bundle.putString("account", "");
-	        intent.putExtras(bundle); 
-	        startActivityForResult(intent, EDIT);
+			//將值傳到第二頁之後再傳回來
+//			Intent intent = new Intent();
+//	        intent.setClass(MainActivity.this, SecondActivity.class);
+////	        startActivity(intent);
+//	        Bundle bundle = new Bundle();
+//	        bundle.putString("account", "");
+//	        intent.putExtras(bundle); 
+//	        startActivityForResult(intent, EDIT);
 		}
 
-	
+	 
     	
     };
     
